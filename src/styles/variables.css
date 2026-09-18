@@ -1,0 +1,106 @@
+:root {
+  /* Surface & Backgrounds - Soft Warm Cream & Ivory */
+  --bg-app: #FAF6F5;
+  --bg-sidebar: #F5EDEC;
+  --bg-card: #FFFFFF;
+  --bg-card-elevated: #FFFDFC;
+  --bg-card-muted: #F8F2F1;
+  --bg-glass: rgba(255, 255, 255, 0.85);
+  --bg-glass-card: rgba(255, 255, 255, 0.92);
+
+  /* Blush / Rose Palette */
+  --rose-50: #FFF5F6;
+  --rose-100: #FDE9EB;
+  --rose-200: #F9D0D5;
+  --rose-300: #F2ABB4;
+  --rose-400: #E47D8B;
+  --rose-500: #D45B6C; /* Primary Brand Accent */
+  --rose-600: #BE4254;
+  --rose-700: #A03343;
+  --rose-800: #852C3A;
+  --rose-900: #712934;
+
+  /* Neutrals & Text */
+  --text-primary: #251E20;
+  --text-secondary: #5F5053;
+  --text-muted: #8E7D81;
+  --text-subtle: #B2A2A5;
+  --text-inverse: #FFFFFF;
+
+  /* Borders */
+  --border-subtle: #F0E3E4;
+  --border-medium: #E4D0D2;
+  --border-focus: #D45B6C;
+  --border-active: #F9D0D5;
+
+  /* Domain & Subject Identity */
+  --subj-math: #7B4B82;
+  --subj-math-bg: #F8EDF9;
+  --subj-physics: #2D6E82;
+  --subj-physics-bg: #EAF4F7;
+  --subj-svt: #477553;
+  --subj-svt-bg: #EEF6F0;
+  --subj-german: #A8572A;
+  --subj-german-bg: #FDF1EA;
+  --subj-french: #924B66;
+  --subj-french-bg: #FBEDF3;
+  --subj-philo: #925838;
+  --subj-philo-bg: #FAF2ED;
+  --subj-english: #387574;
+  --subj-english-bg: #EAF5F5;
+  --proj-code: #3A638C;
+  --proj-code-bg: #EBF3FB;
+
+  /* Priorities */
+  --priority-p1: #C63945;
+  --priority-p1-bg: #FDF0F1;
+  --priority-p2: #BA7326;
+  --priority-p2-bg: #FEF7EE;
+  --priority-p3: #657482;
+  --priority-p3-bg: #F2F5F8;
+
+  /* Status Colors */
+  --status-todo: #776B6E;
+  --status-todo-bg: #F3ECEE;
+  --status-progress: #BA7326;
+  --status-progress-bg: #FEF7EE;
+  --status-review: #7B4B82;
+  --status-review-bg: #F8EDF9;
+  --status-done: #3A8358;
+  --status-done-bg: #EBF7EF;
+
+  /* Shadows - Layered & Tinted */
+  --shadow-xs: 0 1px 2px rgba(80, 40, 50, 0.04);
+  --shadow-sm: 0 2px 5px rgba(80, 40, 50, 0.05);
+  --shadow-md: 0 4px 16px rgba(85, 40, 52, 0.07), 0 1px 3px rgba(85, 40, 52, 0.04);
+  --shadow-lg: 0 12px 30px -4px rgba(85, 40, 52, 0.09), 0 4px 12px -2px rgba(85, 40, 52, 0.04);
+  --shadow-modal: 0 24px 50px -10px rgba(60, 20, 30, 0.18);
+
+  /* Border Radii */
+  --radius-xs: 4px;
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-xl: 20px;
+  --radius-full: 9999px;
+
+  /* Typography */
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  /* Spacing Primitives */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+
+  /* Transitions */
+  --transition-fast: 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-spring: 0.35s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}

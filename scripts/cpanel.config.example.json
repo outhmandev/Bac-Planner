@@ -1,0 +1,6 @@
+{
+  "hostname": "cloud756.thundercloud.uk",
+  "port": 2083,
+  "user": "your_cpanel_user",
+  "token": "YOUR_CPANEL_API_TOKEN"
+}
